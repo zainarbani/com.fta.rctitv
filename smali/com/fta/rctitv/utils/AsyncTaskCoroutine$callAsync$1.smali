@@ -1,0 +1,99 @@
+.class final Lcom/fta/rctitv/utils/AsyncTaskCoroutine$callAsync$1;
+.super Luu/c;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/fta/rctitv/utils/AsyncTaskCoroutine;->callAsync([Ljava/lang/Object;Lsu/e;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime Luu/e;
+    c = "com.fta.rctitv.utils.AsyncTaskCoroutine"
+    f = "AsyncTaskCoroutine.kt"
+    l = {
+        0x18
+    }
+    m = "callAsync"
+.end annotation
+
+
+# instance fields
+.field L$0:Ljava/lang/Object;
+
+.field label:I
+
+.field synthetic result:Ljava/lang/Object;
+
+.field final synthetic this$0:Lcom/fta/rctitv/utils/AsyncTaskCoroutine;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/fta/rctitv/utils/AsyncTaskCoroutine<",
+            "TI;TO;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lcom/fta/rctitv/utils/AsyncTaskCoroutine;Lsu/e;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fta/rctitv/utils/AsyncTaskCoroutine<",
+            "TI;TO;>;",
+            "Lsu/e<",
+            "-",
+            "Lcom/fta/rctitv/utils/AsyncTaskCoroutine$callAsync$1;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/fta/rctitv/utils/AsyncTaskCoroutine$callAsync$1;->this$0:Lcom/fta/rctitv/utils/AsyncTaskCoroutine;
+
+    invoke-direct {p0, p2}, Luu/c;-><init>(Lsu/e;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iput-object p1, p0, Lcom/fta/rctitv/utils/AsyncTaskCoroutine$callAsync$1;->result:Ljava/lang/Object;
+
+    iget p1, p0, Lcom/fta/rctitv/utils/AsyncTaskCoroutine$callAsync$1;->label:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, Lcom/fta/rctitv/utils/AsyncTaskCoroutine$callAsync$1;->label:I
+
+    iget-object p1, p0, Lcom/fta/rctitv/utils/AsyncTaskCoroutine$callAsync$1;->this$0:Lcom/fta/rctitv/utils/AsyncTaskCoroutine;
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0, p0}, Lcom/fta/rctitv/utils/AsyncTaskCoroutine;->access$callAsync(Lcom/fta/rctitv/utils/AsyncTaskCoroutine;[Ljava/lang/Object;Lsu/e;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method

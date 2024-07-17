@@ -1,0 +1,297 @@
+/* Set the idle overlay to transparent white */
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-controls {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* Hide titles on complete */
+.jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-primary,
+.jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-secondary {
+  display: none;
+}
+
+/* Round, white play & restart buttons with black icons */
+.jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container {
+  background-color: transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon,
+.jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon {
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Change play button colors on idle state, handle hover transitions */
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container {
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon {
+  color: #FFFFFF;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Remove small play icon on idle state  */
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon-display {
+  display: none;
+}
+
+/* Remove small rewind icon on idle state */
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon-rewind {
+  display: none;
+}
+
+/* Shrink play button on smaller breakpoints */
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container,
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-2 .jw-display-controls .jw-display-icon-container  {
+  height: 50px;
+  width: 50px;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-1 .jw-display-controls .jw-display-icon-container,
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-0 .jw-display-controls .jw-display-icon-container {
+  height: 50px;
+  width: 50px;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container .jw-icon,
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-2 .jw-display-controls .jw-display-icon-container .jw-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-1 .jw-display-controls .jw-display-icon-container .jw-icon,
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-0 .jw-display-controls .jw-display-icon-container .jw-icon {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container:hover {
+   background-color: #FFFFFF;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon:hover {
+  color: #fff;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-paused .jw-controls {
+  background-color: transparent;
+}
+
+/* Customize font style and positioning for titles */
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Apply new styles to video title and description, handle transitions */
+.jwplayer.jw-skin-alaska .jw-title-primary {
+  font-size: 48px;
+  padding: 30px;
+  color: #1E1E1E;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  padding-bottom: 15px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+/* Apple new styles to video description */
+.jwplayer.jw-skin-alaska .jw-title-secondary {
+  font-size: 18px;
+  max-width: 70%;
+  font-weight: 500;
+  opacity: 0;
+  margin: 0 auto;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  white-space: normal;
+  line-height: 1.3;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  -webkit-transition-delay: 0.08s;
+  transition-delay: 0.08s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+
+/* Decrease font size on medium-small breakpoints */
+.jwplayer.jw-skin-alaska.jw-breakpoint-3 .jw-title-primary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-2 .jw-title-primary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-1 .jw-title-primary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-0 .jw-title-primary {
+  font-size: 22px;
+}
+
+.jwplayer.jw-skin-alaska.jw-breakpoint-3 .jw-title-secondary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-2 .jw-title-secondary {
+  font-size: 14px;
+}
+
+/* Hide the description on smallest breakpoints */
+.jwplayer.jw-skin-alaska.jw-breakpoint-1 .jw-title-secondary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-0 .jw-title-secondary {
+  display: none;
+}
+
+/* Change colors and remove gradient shadow for control bar, change icon color on pause */
+.jwplayer.jw-skin-alaska .jw-display {
+  padding-bottom: 45px;
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar {
+  background-color: transparent;
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color {
+  color: #FFFFFF;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-paused .jw-controlbar .jw-button-container .jw-button-color {
+  color: #FFFFFF;
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color:hover {
+  color: #FFFFFF;
+}
+
+/* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip {
+  bottom: 70%;
+  box-shadow: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip.jw-open {
+  border-radius: 5px;
+  color: #92DCE5;
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip .jw-text {
+  background-color: #92DCE5;
+  border-radius: 5px;
+  border: 0;
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-text {
+  color: #FFFFFF;
+}
+
+.jwplayer.jw-skin-alaska .jw-volume-tip,
+.jwplayer.jw-skin-alaska .jw-time-tip {
+  padding-bottom: 0;
+}
+
+/* Customize colors of volume control knob */
+.jwplayer.jw-skin-alaska .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob {
+  background-color: #FFFFFF;
+}
+
+/* Customize colors of timeslider */
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
+  background-color: rgba(255, 255, 255, .54);
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
+  background-color: #FFFFFF;
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress {
+  background-color: #f52730;
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
+  background-color: #f52730;
+}
+
+/* Customize colors/opacity of the settings menu */
+.jwplayer.jw-skin-alaska .jw-settings-menu {
+  background-color: transparent;
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-topbar {
+  background-color: rgba(255, 255, 255, .54);
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-topbar .jw-icon:hover {
+  color: #1E1E1E;
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-submenu {
+  background-color: rgba(255, 255, 255, .65);
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-content-item {
+  color: #1E1E1E;
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-content-item:hover,
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-item-active {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-settings {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-fullscreen {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-rewind {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-next {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-display-icon-rewind {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-display-icon-next {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-cc {
+    display: none;
+}
+
+
+*:focus
+{
+    outline: none !important;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+	-webkit-tap-highlight-color: transparent !important;
+}
+
+* {
+	outline: none !important;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+	-webkit-tap-highlight-color: transparent !important;
+}

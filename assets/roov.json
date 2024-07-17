@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "author": "RPK FM - Jakarta",
+      "title": "96.3 FM",
+      "audioURL": "http://119.235.255.206:8030/listen.mp3",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 279,
+      "isPlaying": false
+    },
+    {
+      "author": "Camajaya FM - Jakarta",
+      "title": "102.6 FM",
+      "audioURL": "http://live.camajayafm.com:8220/;",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 269,
+      "isPlaying": false
+    },
+    {
+      "author": "Mandarin Station - Jakarta",
+      "title": "98.3 FM",
+      "audioURL": "http://158.69.119.235:8016/;",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 268,
+      "isPlaying": false
+    },
+    {
+      "author": "Virgin Radio - Jakarta",
+      "title": "99.9 FM",
+      "audioURL": "https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGINRADAAC.aac",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 106,
+      "isPlaying": false
+    },
+    {
+      "author": "Smooth FM - Jakarta",
+      "title": "99.5 FM",
+      "audioURL": "http://playerservices.streamtheworld.com/api/livestream-redirect/SMOOTH995AAC.aac?dist=onlineradiobox",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 104,
+      "isPlaying": false
+    },
+    {
+      "author": "RRI Pro 4 - Jakarta",
+      "title": "92.8 FM",
+      "audioURL": "http://cdnjakartapro4.rri.co.id/web-rrijakartapro4.mp3",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 102,
+      "isPlaying": false
+    },
+    {
+      "author": "RRI Pro 2 - Jakarta",
+      "title": "105 FM",
+      "audioURL": "http://cdnjakartapro2.rri.co.id/web-rrijakartapro2.mp3",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 100,
+      "isPlaying": false
+    },
+    {
+      "author": "RAS FM - Jakarta",
+      "title": "95.5 FM",
+      "audioURL": "http://103.28.148.18:9006/;",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 98,
+      "isPlaying": false
+    },
+    {
+      "author": "OZ Radio - Jakarta",
+      "title": "90.8 FM",
+      "audioURL": "http://45.64.97.211:9080/;stream/1",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 97,
+      "isPlaying": false
+    },
+    {
+      "author": "Jalesveva Jayamahe FM",
+      "title": "107.8 FM",
+      "audioURL": "http://beta.tnial.mil.id:8000/;listen.pls",
+      "imageURL": "",
+      "adsURL": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21865661642/RADIO-PLUS_ANDROID-APP_PRE-ROLL-AUDIO&description_url=http%3A%2F%2Fm.rctiplus.com%2Fradio&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+      "type": "radio",
+      "id": 91,
+      "isPlaying": false
+    }
+  ]
+}
